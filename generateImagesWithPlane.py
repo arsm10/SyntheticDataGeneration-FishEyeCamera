@@ -10,8 +10,9 @@ from mathutils import Vector
 from functions import *
 from settings import image_dir, image_dir_tmp, label_map, target_dir, write_label_data
 
-user_dir = "C:/Users/Muhammad Arshan/Desktop/TU Chemnitz/ICS/Research Project/Research Related Documents/Synthetic"
-pic = "/tv-in-the-living-room-decorating.jpg"
+# Add The Path where do you want to extract the Background Image and Generate Synthetic Data
+user_dir = "--User Path----"
+pic = "--.jpg for Background Image---"
 seed = random.randint(0, sys.maxsize)
 random.seed(seed)
 
